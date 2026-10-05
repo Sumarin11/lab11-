@@ -1,0 +1,17 @@
+name: CI - Continuous Integration
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: Test Code
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Run Test Step
+        run: echo "CI Pipeline executed successfully!"
