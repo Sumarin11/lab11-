@@ -1,4 +1,4 @@
-name: CI - Continuous Integration
+name: IoT Backend CI Pipeline
 
 on:
   pull_request:
@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Test Step
-        run: echo "CI Pipeline executed successfully!"
+        run: echo "CI Passed!"
