@@ -1,1 +1,2 @@
-console.log("Hello IoT API Server Running!");
+
+console.log("Hello IoT API Server Running!"
