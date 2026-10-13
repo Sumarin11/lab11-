@@ -1,2 +1,1 @@
-
 console.log("Hello IoT API Server Running!"
