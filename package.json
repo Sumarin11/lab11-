@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "exit 1"
+  "test": "exit 1",
+  "lint": "exit 1"
 },
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sumarin11/lab11.git"
